@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.8",
+	"Category": "Sample",
+	"Description": "Game Animation Sample + ALS overlays with a flexible, data-driven shooting system.",
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "GASPALS",
+			"Enabled": true
+		}
+	]
+}

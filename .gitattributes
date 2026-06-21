@@ -1,0 +1,35 @@
+# Normalize text line endings; auto-detect text vs binary.
+* text=auto
+
+# --- Unreal Engine binary assets: always binary (no diff/merge/eol munging) ---
+*.uasset binary
+*.umap   binary
+*.upk    binary
+*.udk    binary
+*.uexp   binary
+*.ubulk  binary
+
+# --- Other binary media commonly found in UE projects ---
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.bmp  binary
+*.tga  binary
+*.exr  binary
+*.hdr  binary
+*.psd  binary
+*.wav  binary
+*.mp3  binary
+*.ogg  binary
+*.flac binary
+*.fbx  binary
+*.obj  binary
+*.ttf  binary
+*.otf  binary
+*.ico  binary
+*.bin  binary
+*.dll  binary
+*.pdb  binary
+*.zip  binary
+*.7z   binary

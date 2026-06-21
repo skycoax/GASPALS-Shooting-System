@@ -1,0 +1,47 @@
+# ===========================================================================
+#  Unreal Engine .gitignore
+#  Keeps source content (Content/, Plugins/*/Content), Config/, .uproject,
+#  .uplugin, Resources/. Ignores everything the engine regenerates.
+# ===========================================================================
+
+# Engine-generated / build output
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Same, inside any plugin
+Plugins/**/Binaries/
+Plugins/**/Build/
+Plugins/**/Intermediate/
+Plugins/**/Saved/
+Plugins/**/DerivedDataCache/
+
+# IDE / generated project files
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.opendb
+*.VC.db
+*.VC.opendb
+*.xcodeproj/
+*.xcworkspace/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / crash dumps
+*.log
+*.dmp
